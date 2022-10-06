@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorblueish"
+    tools:context="com.example.navu.chatterbox.SettingsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pickid"
+        android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:foregroundGravity="center"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:src="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/settings_displayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/setting_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi,I'm using ChatterBox"
+            android:textColor="@color/colorwhite"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/setting_imagebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorblueish"
+            android:background="@color/colorwhite"
+            android:text="Change Image" />
+
+        <Button
+            android:id="@+id/setting_statusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorwhite"
+            android:background="@color/colororange"
+            android:text="Change Status" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
